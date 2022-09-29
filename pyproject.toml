@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dive-into-flask"
+version = "0.1.0"
+description = ""
+authors = ["sensebecommon <freean2468@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dive_into_flask"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
